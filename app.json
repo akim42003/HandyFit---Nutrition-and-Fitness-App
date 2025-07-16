@@ -4,7 +4,7 @@
     "slug": "HandyFit",
     "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/new-icon.png",
+    "icon": "./assets/images/icon-ios-optimized.png",
     "scheme": "handyfit",
     "userInterfaceStyle": "dark",
     "newArchEnabled": true,
@@ -18,7 +18,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/new-icon.png",
+        "foregroundImage": "./assets/images/icon-ios-optimized.png",
         "backgroundColor": "#1a1a1a"
       },
       "permissions": [],
@@ -35,7 +35,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/new-icon.png",
+          "image": "./assets/images/icon-ios-optimized.png",
           "imageWidth": 120,
           "resizeMode": "contain",
           "backgroundColor": "#1a1a1a"

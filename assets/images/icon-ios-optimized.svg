@@ -1,0 +1,55 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient for full bleed -->
+  <defs>
+    <radialGradient id="bgGradient" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#c84545;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b73e3e;stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="whiteGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5f5f5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Full background -->
+  <rect width="1024" height="1024" fill="url(#bgGradient)"/>
+  
+  <!-- Main Icon - Enlarged Dumbbell + Food -->
+  <g transform="translate(512, 360) scale(1.4)">
+    <!-- Dumbbell -->
+    <!-- Bar -->
+    <rect x="-120" y="-16" width="240" height="32" rx="16" fill="url(#whiteGradient)"/>
+    
+    <!-- Left weight -->
+    <rect x="-160" y="-48" width="48" height="96" rx="8" fill="url(#whiteGradient)"/>
+    <rect x="-176" y="-32" width="16" height="64" rx="4" fill="#e8e8e8"/>
+    
+    <!-- Right weight -->
+    <rect x="112" y="-48" width="48" height="96" rx="8" fill="url(#whiteGradient)"/>
+    <rect x="160" y="-32" width="16" height="64" rx="4" fill="#e8e8e8"/>
+    
+    <!-- Center grip -->
+    <rect x="-40" y="-24" width="80" height="48" rx="24" fill="#333333"/>
+  </g>
+  
+  <!-- Food Icon -->
+  <g transform="translate(512, 620) scale(1.4)">
+    <!-- Plate -->
+    <circle cx="0" cy="0" r="80" fill="#333333"/>
+    <circle cx="0" cy="0" r="68" fill="#2a2a2a"/>
+    
+    <!-- Food representation -->
+    <!-- Protein -->
+    <ellipse cx="-28" cy="-12" rx="20" ry="14" fill="#ffffff"/>
+    
+    <!-- Vegetables -->
+    <circle cx="24" cy="-20" r="14" fill="#90c695"/>
+    <circle cx="36" cy="8" r="10" fill="#90c695"/>
+    
+    <!-- Carbs -->
+    <rect x="-16" y="16" width="32" height="20" rx="10" fill="#f4d03f"/>
+  </g>
+  
+  <!-- Simple brand mark -->
+  <text x="512" y="920" font-family="Arial, sans-serif" font-size="96" font-weight="bold" text-anchor="middle" fill="#ffffff">HF</text>
+</svg>

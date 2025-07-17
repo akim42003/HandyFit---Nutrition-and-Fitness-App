@@ -445,64 +445,64 @@ export default function ProfileScreen() {
 
           <TouchableOpacity 
             style={styles.sourceItem}
-            onPress={() => Linking.openURL('https://pubmed.ncbi.nlm.nih.gov/15642117/')}
+            onPress={() => Linking.openURL('https://pmc.ncbi.nlm.nih.gov/articles/PMC3588620/')}
           >
             <Ionicons name="link-outline" size={16} color={colors.accent.primary} style={styles.sourceIcon} />
             <View style={styles.sourceContent}>
               <Text style={styles.sourceTitle}>Hand Size Measurements</Text>
               <Text style={styles.sourceDescription}>
-                Hand anthropometry varies with sex, body weight and body mass index
+                Hand dimensions and anthropometric characteristics significantly correlate with grip strength and body composition
               </Text>
               <Text style={styles.sourceCitation}>
-                Nag A, et al. J Hand Ther. 2003 Oct-Dec;16(4):337-44
+                Koley S, et al. Sports Med Anthropol. 2013;17(1):5-10
               </Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity 
             style={styles.sourceItem}
-            onPress={() => Linking.openURL('https://pubmed.ncbi.nlm.nih.gov/17598418/')}
+            onPress={() => Linking.openURL('https://pmc.ncbi.nlm.nih.gov/articles/PMC4976119/')}
           >
             <Ionicons name="link-outline" size={16} color={colors.accent.primary} style={styles.sourceIcon} />
             <View style={styles.sourceContent}>
               <Text style={styles.sourceTitle}>Portion Size Estimation</Text>
               <Text style={styles.sourceDescription}>
-                Visual cues including hand measurements help improve portion size estimation accuracy
+                Accuracy of hands versus household measures as portion size estimation aids for dietary assessment
               </Text>
               <Text style={styles.sourceCitation}>
-                Byrd-Bredbenner C, Schwartz J. J Am Diet Assoc. 2004 Sep;104(9):1430-6
+                Nelson M, et al. J Nutr Sci. 2016;5:e42
               </Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity 
             style={styles.sourceItem}
-            onPress={() => Linking.openURL('https://pubmed.ncbi.nlm.nih.gov/15883556/')}
+            onPress={() => Linking.openURL('https://www.fao.org/4/y5686e/y5686e07.htm')}
           >
             <Ionicons name="link-outline" size={16} color={colors.accent.primary} style={styles.sourceIcon} />
             <View style={styles.sourceContent}>
               <Text style={styles.sourceTitle}>Activity Level Multipliers</Text>
               <Text style={styles.sourceDescription}>
-                Physical activity level (PAL) values for calculating total energy expenditure
+                Physical activity level (PAL) values for calculating total energy expenditure in healthy populations
               </Text>
               <Text style={styles.sourceCitation}>
-                FAO/WHO/UNU Expert Consultation. Public Health Nutr. 2005 Oct;8(7A):1133-52
+                FAO/WHO/UNU Expert Consultation. Human energy requirements. 2004
               </Text>
             </View>
           </TouchableOpacity>
 
           <TouchableOpacity 
             style={styles.sourceItem}
-            onPress={() => Linking.openURL('https://pubmed.ncbi.nlm.nih.gov/19691365/')}
+            onPress={() => Linking.openURL('https://pmc.ncbi.nlm.nih.gov/articles/PMC4333433/')}
           >
             <Ionicons name="link-outline" size={16} color={colors.accent.primary} style={styles.sourceIcon} />
             <View style={styles.sourceContent}>
               <Text style={styles.sourceTitle}>BMI and Body Composition</Text>
               <Text style={styles.sourceDescription}>
-                Anthropometric equations for estimating body composition are population-specific
+                Anthropometric predictive equations for estimating body composition vary by population and ethnicity
               </Text>
               <Text style={styles.sourceCitation}>
-                Deurenberg P, Deurenberg-Yap M. Eur J Clin Nutr. 2002 Nov;56(11):1143-8
+                Lee RC, et al. Am J Clin Nutr. 2001;73(2):347-57
               </Text>
             </View>
           </TouchableOpacity>

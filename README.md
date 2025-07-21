@@ -1,5 +1,6 @@
 # HandyFit 
 **Now on the App Store: https://apps.apple.com/us/app/handyfit/id6748508963**
+
 A modern, intelligent calorie tracking app that combines traditional nutrition logging with personalized biometric measurements and computer vision (beta). Built with React Native and Expo.
 
 ## Features

@@ -1,14 +1,8 @@
 # HandyFit 
-
+**Now on the App Store: https://apps.apple.com/us/app/handyfit/id6748508963**
 A modern, intelligent calorie tracking app that combines traditional nutrition logging with personalized biometric measurements and computer vision (beta). Built with React Native and Expo.
 
 ## Features
-
-### Smart Food Indentification
-- **USDA Database Integration**: Access to 400,000+ foods with accurate nutritional data
-- **Camera Recognition** (Beta): Take photos of your food for automatic identification and calorie estimation
-- **Custom Food Entry**: Manually add foods with detailed nutritional information
-- **Visual Portion Sizing**: Use your own body measurements (fist, thumb, pinky) for intuitive portion control
 
 ### Personalized Biometrics
 - **Custom Body Measurements**: Automatically calculates your personal fist, thumb, and pinky volumes based on height, weight, and gender
@@ -33,9 +27,8 @@ A modern, intelligent calorie tracking app that combines traditional nutrition l
 - **State Management**: React Hooks
 - **Storage**: AsyncStorage
 - **Navigation**: React Navigation
-- **AI/ML**: TensorFlow Lite (for food recognition)
 - **APIs**: USDA FoodData Central
 
 ---
 
-*Making calorie tracking intuitive, personal, and intelligent.*
+*Making calorie tracking intuitive, and personal*
